@@ -1,0 +1,266 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 101140, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 96.18201208114624, 
+        "compilation_time_with_module": 101.08077096939087, 
+        "joined_compiler_flags": "-O3 -fexcess-precision=fast -fearly-inlining -ffast-math -findirect-inlining -freciprocal-math -fno-sched-spec -fno-schedule-insns -ftoplevel-reorder -ftree-loop-if-convert", 
+        "md5_sum": "159b25d0cbc57fe1e21f6255c1c093e8", 
+        "obj_size": 114432, 
+        "obj_sizes": {
+          "adler32.o": 2780, 
+          "compress.o": 1564, 
+          "crc32.o": 10872, 
+          "ctuning-rtl.o": 4600, 
+          "deflate.o": 19788, 
+          "gzclose.o": 976, 
+          "gzlib.o": 6300, 
+          "gzread.o": 5812, 
+          "gzwrite.o": 10252, 
+          "infback.o": 9484, 
+          "inffast.o": 4032, 
+          "inflate.o": 16612, 
+          "inftrees.o": 4396, 
+          "trees.o": 14056, 
+          "uncompr.o": 1264, 
+          "zutil.o": 1644
+        }, 
+        "program_git_hash": "04641ea86f9615c4bdca36af53651658ecea444c"
+      }, 
+      "run": {
+        "execution_time": 0.08956353982300885, 
+        "execution_time_kernel_0": 10.12068, 
+        "execution_time_with_module": 10.82795000076294, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.12068
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.09009038053097346, 
+        "execution_time_kernel_0": 10.180213, 
+        "execution_time_with_module": 10.881830930709839, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.180213
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.08707136283185841, 
+        "execution_time_kernel_0": 9.839064, 
+        "execution_time_with_module": 10.539691925048828, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.839064
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.08760442477876107, 
+        "execution_time_kernel_0": 9.8993, 
+        "execution_time_with_module": 10.607656002044678, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.8993
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "encode", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool--fexcess-precision=": "-fexcess-precision=fast", 
+      "bool-early-inlining": "-fearly-inlining", 
+      "bool-fast-math": "-ffast-math", 
+      "bool-indirect-inlining": "-findirect-inlining", 
+      "bool-reciprocal-math": "-freciprocal-math", 
+      "bool-sched-spec": "-fno-sched-spec", 
+      "bool-schedule-insns": "-fno-schedule-insns", 
+      "bool-toplevel-reorder": "-ftoplevel-reorder", 
+      "bool-tree-loop-if-convert": "-ftree-loop-if-convert"
+    }, 
+    "data_uoa": "zlib", 
+    "dataset_file": "data.tiff", 
+    "dataset_uoa": "image-tiff-0001-nocomp", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 113, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool--fexcess-precision=", 
+    "##compiler_flags#bool-early-inlining", 
+    "##compiler_flags#bool-fast-math", 
+    "##compiler_flags#bool-indirect-inlining", 
+    "##compiler_flags#bool-reciprocal-math", 
+    "##compiler_flags#bool-sched-spec", 
+    "##compiler_flags#bool-schedule-insns", 
+    "##compiler_flags#bool-toplevel-reorder", 
+    "##compiler_flags#bool-tree-loop-if-convert"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9, 
+        2
+      ], 
+      "raw": [
+        "gcc-4.9 (Raspbian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "compression": "raw", 
+      "format": "TIFF", 
+      "height": 208, 
+      "mode": "RGB", 
+      "raw_info": {
+        "compression": "raw", 
+        "dpi": [
+          72, 
+          72
+        ]
+      }, 
+      "total_size": 101504, 
+      "width": 162, 
+      "xdpi": 72, 
+      "ydpi": 72
+    }, 
+    "number_of_selected_compiler_flags": 10, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            700000, 
+            700000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "half thumb fastmult vfp edsp java tls", 
+        "current_freq": {
+          "0": 700.0
+        }, 
+        "max_freq": {
+          "0": 700.0
+        }, 
+        "name": "BCM2708", 
+        "num_proc": "1", 
+        "sub_name": "ARMv6-compatible processor rev 7 (v6l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0
+            ], 
+            "core_names": [
+              "BCM2708"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv6l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Linux 4.4.21+", 
+        "name_long": "Linux-4.4.21+-armv6l-with-debian-8.0", 
+        "name_short": "Linux 4.4.21+", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "f8a394e84a40d30a", 
+    "statistical_repetitions": 4
+  }
+}

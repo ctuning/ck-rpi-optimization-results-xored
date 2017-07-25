@@ -1,0 +1,10 @@
+{
+  "data_uoa": "ck-rpi-optimization-results-xored",
+  "data_uid": "3d3a2d6038420c80",
+  "data_alias": "ck-rpi-optimization-results-xored",
+  "data_name": "ck-rpi-optimization-results-xored",
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-rpi-optimization-results-xored"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 100768, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 107.59325504302979, 
+        "compilation_time_with_module": 112.41006994247437, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "9dcc264873128d93b5a302f800af5225", 
+        "obj_size": 114048, 
+        "obj_sizes": {
+          "adler32.o": 2424, 
+          "compress.o": 1568, 
+          "crc32.o": 10876, 
+          "ctuning-rtl.o": 3836, 
+          "deflate.o": 20172, 
+          "gzclose.o": 980, 
+          "gzlib.o": 6300, 
+          "gzread.o": 5776, 
+          "gzwrite.o": 10264, 
+          "infback.o": 9572, 
+          "inffast.o": 3996, 
+          "inflate.o": 16760, 
+          "inftrees.o": 4420, 
+          "trees.o": 14184, 
+          "uncompr.o": 1272, 
+          "zutil.o": 1648
+        }, 
+        "program_git_hash": "f3b3ffe43b24039767a39c7f85ab4b768684a65b"
+      }, 
+      "run": {
+        "execution_time": 0.016296407108239097, 
+        "execution_time_kernel_0": 10.087476, 
+        "execution_time_with_module": 15.588222980499268, 
+        "repeat": 619, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.087476
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.016318883683360257, 
+        "execution_time_kernel_0": 10.101389, 
+        "execution_time_with_module": 10.819355964660645, 
+        "repeat": 619, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.101389
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.016219772213247174, 
+        "execution_time_kernel_0": 10.040039, 
+        "execution_time_with_module": 10.76592493057251, 
+        "repeat": 619, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.040039
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.016170922455573503, 
+        "execution_time_kernel_0": 10.009801, 
+        "execution_time_with_module": 10.730309963226318, 
+        "repeat": 619, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.009801
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "decode", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3"
+    }, 
+    "data_uoa": "zlib-inflate", 
+    "dataset_file": "audio-wav-0001-deflated", 
+    "dataset_uoa": "audio-wav-0001-deflated", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 619, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9, 
+        2
+      ], 
+      "raw": [
+        "gcc-4.9 (Raspbian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "total_size": 116960
+    }, 
+    "number_of_selected_compiler_flags": 1, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            700000, 
+            700000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "half thumb fastmult vfp edsp java tls", 
+        "current_freq": {
+          "0": 700.0
+        }, 
+        "max_freq": {
+          "0": 700.0
+        }, 
+        "name": "BCM2708", 
+        "num_proc": "1", 
+        "sub_name": "ARMv6-compatible processor rev 7 (v6l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0
+            ], 
+            "core_names": [
+              "BCM2708"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv6l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Linux 4.4.21+", 
+        "name_long": "Linux-4.4.21+-armv6l-with-debian-8.0", 
+        "name_short": "Linux 4.4.21+", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "61764d46879edf84", 
+    "statistical_repetitions": 4
+  }
+}

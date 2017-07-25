@@ -1,0 +1,280 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 101620, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 101.73095488548279, 
+        "compilation_time_with_module": 106.6962411403656, 
+        "joined_compiler_flags": "-O3 -ffp-contract=off -fassociative-math -fcse-follow-jumps -fno-cse-skip-blocks -fno-cx-limited-range -fno-defer-pop -fno-float-store -fno-function-sections -finline-functions-called-once -fno-ipa-cp-clone -fipa-pta -fkeep-inline-functions -floop-parallelize-all -fno-sched2-use-superblocks -fsigned-zeros -fsingle-precision-constant -fno-strict-overflow -fno-tree-copy-prop -fno-tree-dominator-opts -ftree-fre -fno-tree-ter -fuse-linker-plugin -fno-whole-program", 
+        "md5_sum": "9defc394275aca766d3e15565d1d3af5", 
+        "obj_size": 115224, 
+        "obj_sizes": {
+          "adler32.o": 2612, 
+          "compress.o": 1648, 
+          "crc32.o": 10956, 
+          "ctuning-rtl.o": 4700, 
+          "deflate.o": 20308, 
+          "gzclose.o": 1056, 
+          "gzlib.o": 6416, 
+          "gzread.o": 5960, 
+          "gzwrite.o": 9200, 
+          "infback.o": 9552, 
+          "inffast.o": 4160, 
+          "inflate.o": 16652, 
+          "inftrees.o": 4460, 
+          "trees.o": 14468, 
+          "uncompr.o": 1348, 
+          "zutil.o": 1728
+        }, 
+        "program_git_hash": "04641ea86f9615c4bdca36af53651658ecea444c"
+      }, 
+      "run": {
+        "execution_time": 0.016356625615763547, 
+        "execution_time_kernel_0": 9.961185, 
+        "execution_time_with_module": 10.685062885284424, 
+        "repeat": 609, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.961185
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.01616593431855501, 
+        "execution_time_kernel_0": 9.845054, 
+        "execution_time_with_module": 10.568195104598999, 
+        "repeat": 609, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.845054
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.016269505747126437, 
+        "execution_time_kernel_0": 9.908129, 
+        "execution_time_with_module": 10.639411926269531, 
+        "repeat": 609, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.908129
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.016125175697865354, 
+        "execution_time_kernel_0": 9.820232, 
+        "execution_time_with_module": 10.978316068649292, 
+        "repeat": 609, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.820232
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "decode", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool--ffp-contract=": "-ffp-contract=off", 
+      "bool-associative-math": "-fassociative-math", 
+      "bool-cse-follow-jumps": "-fcse-follow-jumps", 
+      "bool-cse-skip-blocks": "-fno-cse-skip-blocks", 
+      "bool-cx-limited-range": "-fno-cx-limited-range", 
+      "bool-defer-pop": "-fno-defer-pop", 
+      "bool-float-store": "-fno-float-store", 
+      "bool-function-sections": "-fno-function-sections", 
+      "bool-inline-functions-called-once": "-finline-functions-called-once", 
+      "bool-ipa-cp-clone": "-fno-ipa-cp-clone", 
+      "bool-ipa-pta": "-fipa-pta", 
+      "bool-keep-inline-functions": "-fkeep-inline-functions", 
+      "bool-loop-parallelize-all": "-floop-parallelize-all", 
+      "bool-sched2-use-superblocks": "-fno-sched2-use-superblocks", 
+      "bool-signed-zeros": "-fsigned-zeros", 
+      "bool-single-precision-constant": "-fsingle-precision-constant", 
+      "bool-strict-overflow": "-fno-strict-overflow", 
+      "bool-tree-copy-prop": "-fno-tree-copy-prop", 
+      "bool-tree-dominator-opts": "-fno-tree-dominator-opts", 
+      "bool-tree-fre": "-ftree-fre", 
+      "bool-tree-ter": "-fno-tree-ter", 
+      "bool-use-linker-plugin": "-fuse-linker-plugin", 
+      "bool-whole-program": "-fno-whole-program"
+    }, 
+    "data_uoa": "zlib", 
+    "dataset_file": "audio-wav-0001-deflated", 
+    "dataset_uoa": "audio-wav-0001-deflated", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 609, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool--ffp-contract=", 
+    "##compiler_flags#bool-associative-math", 
+    "##compiler_flags#bool-cse-follow-jumps", 
+    "##compiler_flags#bool-cse-skip-blocks", 
+    "##compiler_flags#bool-cx-limited-range", 
+    "##compiler_flags#bool-defer-pop", 
+    "##compiler_flags#bool-float-store", 
+    "##compiler_flags#bool-function-sections", 
+    "##compiler_flags#bool-inline-functions-called-once", 
+    "##compiler_flags#bool-ipa-cp-clone", 
+    "##compiler_flags#bool-ipa-pta", 
+    "##compiler_flags#bool-keep-inline-functions", 
+    "##compiler_flags#bool-loop-parallelize-all", 
+    "##compiler_flags#bool-sched2-use-superblocks", 
+    "##compiler_flags#bool-signed-zeros", 
+    "##compiler_flags#bool-single-precision-constant", 
+    "##compiler_flags#bool-strict-overflow", 
+    "##compiler_flags#bool-tree-copy-prop", 
+    "##compiler_flags#bool-tree-dominator-opts", 
+    "##compiler_flags#bool-tree-fre", 
+    "##compiler_flags#bool-tree-ter", 
+    "##compiler_flags#bool-use-linker-plugin", 
+    "##compiler_flags#bool-whole-program"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9, 
+        2
+      ], 
+      "raw": [
+        "gcc-4.9 (Raspbian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "total_size": 116960
+    }, 
+    "number_of_selected_compiler_flags": 24, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            700000, 
+            700000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "half thumb fastmult vfp edsp java tls", 
+        "current_freq": {
+          "0": 700.0
+        }, 
+        "max_freq": {
+          "0": 700.0
+        }, 
+        "name": "BCM2708", 
+        "num_proc": "1", 
+        "sub_name": "ARMv6-compatible processor rev 7 (v6l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0
+            ], 
+            "core_names": [
+              "BCM2708"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv6l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Linux 4.4.21+", 
+        "name_long": "Linux-4.4.21+-armv6l-with-debian-8.0", 
+        "name_short": "Linux 4.4.21+", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "61764d46879edf84", 
+    "statistical_repetitions": 4
+  }
+}

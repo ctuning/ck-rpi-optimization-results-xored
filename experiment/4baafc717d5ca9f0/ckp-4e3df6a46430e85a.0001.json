@@ -1,0 +1,274 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 101532, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 101.0359239578247, 
+        "compilation_time_with_module": 106.05641889572144, 
+        "joined_compiler_flags": "-O3 -fira-algorithm=priority -fno-compare-elim -fno-defer-pop -fdevirtualize-speculatively -fforward-propagate -fno-isolate-erroneous-paths-dereference -floop-parallelize-all -fno-sched-pressure -fsched-spec-insn-heuristic -fno-selective-scheduling -ftree-builtin-call-dce -ftree-tail-merge -fno-unsafe-math-optimizations", 
+        "md5_sum": "4e34414d10222843002e8f93f8a767db", 
+        "obj_size": 114888, 
+        "obj_sizes": {
+          "adler32.o": 2444, 
+          "compress.o": 1560, 
+          "crc32.o": 10812, 
+          "ctuning-rtl.o": 4628, 
+          "deflate.o": 19864, 
+          "gzclose.o": 980, 
+          "gzlib.o": 6308, 
+          "gzread.o": 5792, 
+          "gzwrite.o": 10264, 
+          "infback.o": 9640, 
+          "inffast.o": 3856, 
+          "inflate.o": 16964, 
+          "inftrees.o": 4416, 
+          "trees.o": 14444, 
+          "uncompr.o": 1268, 
+          "zutil.o": 1648
+        }, 
+        "program_git_hash": "04641ea86f9615c4bdca36af53651658ecea444c"
+      }, 
+      "run": {
+        "execution_time": 0.08778364601769911, 
+        "execution_time_kernel_0": 9.919552, 
+        "execution_time_with_module": 10.653885126113892, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.919552
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.08841375221238938, 
+        "execution_time_kernel_0": 9.990754, 
+        "execution_time_with_module": 10.724190950393677, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.990754
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.08809133628318584, 
+        "execution_time_kernel_0": 9.954321, 
+        "execution_time_with_module": 10.675364971160889, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.954321
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.08874838053097346, 
+        "execution_time_kernel_0": 10.028567, 
+        "execution_time_with_module": 10.767079830169678, 
+        "repeat": 113, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.028567
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "encode", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool--fira-algorithm=": "-fira-algorithm=priority", 
+      "bool-compare-elim": "-fno-compare-elim", 
+      "bool-defer-pop": "-fno-defer-pop", 
+      "bool-devirtualize-speculatively": "-fdevirtualize-speculatively", 
+      "bool-forward-propagate": "-fforward-propagate", 
+      "bool-isolate-erroneous-paths-dereference": "-fno-isolate-erroneous-paths-dereference", 
+      "bool-loop-parallelize-all": "-floop-parallelize-all", 
+      "bool-sched-pressure": "-fno-sched-pressure", 
+      "bool-sched-spec-insn-heuristic": "-fsched-spec-insn-heuristic", 
+      "bool-selective-scheduling": "-fno-selective-scheduling", 
+      "bool-tree-builtin-call-dce": "-ftree-builtin-call-dce", 
+      "bool-tree-tail-merge": "-ftree-tail-merge", 
+      "bool-unsafe-math-optimizations": "-fno-unsafe-math-optimizations"
+    }, 
+    "data_uoa": "zlib", 
+    "dataset_file": "data.tiff", 
+    "dataset_uoa": "image-tiff-0001-nocomp", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 113, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool--fira-algorithm=", 
+    "##compiler_flags#bool-compare-elim", 
+    "##compiler_flags#bool-defer-pop", 
+    "##compiler_flags#bool-devirtualize-speculatively", 
+    "##compiler_flags#bool-forward-propagate", 
+    "##compiler_flags#bool-isolate-erroneous-paths-dereference", 
+    "##compiler_flags#bool-loop-parallelize-all", 
+    "##compiler_flags#bool-sched-pressure", 
+    "##compiler_flags#bool-sched-spec-insn-heuristic", 
+    "##compiler_flags#bool-selective-scheduling", 
+    "##compiler_flags#bool-tree-builtin-call-dce", 
+    "##compiler_flags#bool-tree-tail-merge", 
+    "##compiler_flags#bool-unsafe-math-optimizations"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9, 
+        2
+      ], 
+      "raw": [
+        "gcc-4.9 (Raspbian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "compression": "raw", 
+      "format": "TIFF", 
+      "height": 208, 
+      "mode": "RGB", 
+      "raw_info": {
+        "compression": "raw", 
+        "dpi": [
+          72, 
+          72
+        ]
+      }, 
+      "total_size": 101504, 
+      "width": 162, 
+      "xdpi": 72, 
+      "ydpi": 72
+    }, 
+    "number_of_selected_compiler_flags": 14, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            700000, 
+            700000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "half thumb fastmult vfp edsp java tls", 
+        "current_freq": {
+          "0": 700.0
+        }, 
+        "max_freq": {
+          "0": 700.0
+        }, 
+        "name": "BCM2708", 
+        "num_proc": "1", 
+        "sub_name": "ARMv6-compatible processor rev 7 (v6l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0
+            ], 
+            "core_names": [
+              "BCM2708"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv6l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Linux 4.4.21+", 
+        "name_long": "Linux-4.4.21+-armv6l-with-debian-8.0", 
+        "name_short": "Linux 4.4.21+", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "61764d46879edf84", 
+    "statistical_repetitions": 4
+  }
+}

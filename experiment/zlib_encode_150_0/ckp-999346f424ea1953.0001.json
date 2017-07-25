@@ -1,0 +1,366 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 65648, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 41.63958811759949, 
+        "compilation_time_with_module": 43.747068881988525, 
+        "joined_compiler_flags": "-O3 -fconserve-stack -fdce -fno-devirtualize-speculatively -fno-early-inlining -ffast-math -fno-gcse-las -fira-share-save-slots -fno-isolate-erroneous-paths-attribute -flive-range-shrinkage -floop-nest-optimize -flto -fno-merge-constants -fmodulo-sched -freciprocal-math -fno-rounding-math -fno-sched-rank-heuristic -fthread-jumps -fno-tree-coalesce-vars -fno-tree-copy-prop -fno-tree-loop-optimize", 
+        "md5_sum": "989c84f5bb1d66a7fc85964a2fa8d27c", 
+        "obj_size": 505988, 
+        "obj_sizes": {
+          "adler32.o": 10052, 
+          "compress.o": 7524, 
+          "crc32.o": 44564, 
+          "ctuning-rtl.o": 23092, 
+          "deflate.o": 84592, 
+          "gzclose.o": 5992, 
+          "gzlib.o": 27820, 
+          "gzread.o": 32212, 
+          "gzwrite.o": 28100, 
+          "infback.o": 44120, 
+          "inffast.o": 15780, 
+          "inflate.o": 78728, 
+          "inftrees.o": 12016, 
+          "trees.o": 78308, 
+          "uncompr.o": 6156, 
+          "zutil.o": 6932
+        }, 
+        "program_git_hash": "04641ea86f9615c4bdca36af53651658ecea444c"
+      }, 
+      "run": {
+        "execution_time": 0.21570313043478262, 
+        "execution_time_kernel_0": 9.922344, 
+        "execution_time_with_module": 13.034624099731445, 
+        "repeat": 46, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 9.922344
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.21812713043478263, 
+        "execution_time_kernel_0": 10.033848, 
+        "execution_time_with_module": 10.602168083190918, 
+        "repeat": 46, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.033848
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.2190624347826087, 
+        "execution_time_kernel_0": 10.076872, 
+        "execution_time_with_module": 10.643619060516357, 
+        "repeat": 46, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 10.076872
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "encode", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-conserve-stack": "-fconserve-stack", 
+      "bool-dce": "-fdce", 
+      "bool-devirtualize-speculatively": "-fno-devirtualize-speculatively", 
+      "bool-early-inlining": "-fno-early-inlining", 
+      "bool-fast-math": "-ffast-math", 
+      "bool-gcse-las": "-fno-gcse-las", 
+      "bool-ira-share-save-slots": "-fira-share-save-slots", 
+      "bool-isolate-erroneous-paths-attribute": "-fno-isolate-erroneous-paths-attribute", 
+      "bool-live-range-shrinkage": "-flive-range-shrinkage", 
+      "bool-loop-nest-optimize": "-floop-nest-optimize", 
+      "bool-lto": "-flto", 
+      "bool-merge-constants": "-fno-merge-constants", 
+      "bool-modulo-sched": "-fmodulo-sched", 
+      "bool-reciprocal-math": "-freciprocal-math", 
+      "bool-rounding-math": "-fno-rounding-math", 
+      "bool-sched-rank-heuristic": "-fno-sched-rank-heuristic", 
+      "bool-thread-jumps": "-fthread-jumps", 
+      "bool-tree-coalesce-vars": "-fno-tree-coalesce-vars", 
+      "bool-tree-copy-prop": "-fno-tree-copy-prop", 
+      "bool-tree-loop-optimize": "-fno-tree-loop-optimize"
+    }, 
+    "data_uoa": "zlib", 
+    "dataset_file": "data.wav", 
+    "dataset_uoa": "audio-wav-0001", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 46, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-conserve-stack", 
+    "##compiler_flags#bool-dce", 
+    "##compiler_flags#bool-devirtualize-speculatively", 
+    "##compiler_flags#bool-early-inlining", 
+    "##compiler_flags#bool-fast-math", 
+    "##compiler_flags#bool-gcse-las", 
+    "##compiler_flags#bool-ira-share-save-slots", 
+    "##compiler_flags#bool-isolate-erroneous-paths-attribute", 
+    "##compiler_flags#bool-live-range-shrinkage", 
+    "##compiler_flags#bool-loop-nest-optimize", 
+    "##compiler_flags#bool-lto", 
+    "##compiler_flags#bool-merge-constants", 
+    "##compiler_flags#bool-modulo-sched", 
+    "##compiler_flags#bool-reciprocal-math", 
+    "##compiler_flags#bool-rounding-math", 
+    "##compiler_flags#bool-sched-rank-heuristic", 
+    "##compiler_flags#bool-thread-jumps", 
+    "##compiler_flags#bool-tree-coalesce-vars", 
+    "##compiler_flags#bool-tree-copy-prop", 
+    "##compiler_flags#bool-tree-loop-optimize"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9, 
+        2
+      ], 
+      "raw": [
+        "gcc-4.9 (Raspbian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "total_size": 311096
+    }, 
+    "number_of_selected_compiler_flags": 21, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            600000, 
+            1200000
+          ], 
+          "1": [
+            600000, 
+            1200000
+          ], 
+          "2": [
+            600000, 
+            1200000
+          ], 
+          "3": [
+            600000, 
+            1200000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+        "current_freq": {
+          "0": 1200.0, 
+          "1": 1200.0, 
+          "2": 1200.0, 
+          "3": 1200.0
+        }, 
+        "max_freq": {
+          "0": 1200.0, 
+          "1": 1200.0, 
+          "2": 1200.0, 
+          "3": 1200.0
+        }, 
+        "name": "BCM2709", 
+        "num_proc": "4", 
+        "sub_name": "ARMv7 Processor rev 4 (v7l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0, 
+              0, 
+              0, 
+              1
+            ], 
+            "core_names": [
+              "ARMv7 Processor rev 4 (v7l)", 
+              "ARMv7 Processor rev 4 (v7l)", 
+              "ARMv7 Processor rev 4 (v7l)", 
+              "BCM2709"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "76.80", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 4 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 4 (v7l)", 
+          "cpu_features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "cur_freq": 1200.0, 
+          "max_freq": 1200.0, 
+          "model name": "ARMv7 Processor rev 4 (v7l)", 
+          "processor": "0"
+        }, 
+        "1": {
+          "BogoMIPS": "76.80", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "all_freqs": [
+            "1", 
+            "1"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 4 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 4 (v7l)", 
+          "cpu_features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "cur_freq": 1200.0, 
+          "max_freq": 1200.0, 
+          "model name": "ARMv7 Processor rev 4 (v7l)", 
+          "processor": "1"
+        }, 
+        "2": {
+          "BogoMIPS": "76.80", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "all_freqs": [
+            "2", 
+            "2"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 4 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 4 (v7l)", 
+          "cpu_features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "cur_freq": 1200.0, 
+          "max_freq": 1200.0, 
+          "model name": "ARMv7 Processor rev 4 (v7l)", 
+          "processor": "2"
+        }, 
+        "3": {
+          "BogoMIPS": "76.80", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "Hardware": "BCM2709", 
+          "Revision": "a02082", 
+          "Serial": "00000000e3db06b9", 
+          "all_freqs": [
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "BCM2709", 
+          "ck_cpu_subname": "ARMv7 Processor rev 4 (v7l)", 
+          "cpu_features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "cur_freq": 1200.0, 
+          "max_freq": 1200.0, 
+          "model name": "ARMv7 Processor rev 4 (v7l)", 
+          "processor": "3"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "76.80", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "ARMv7 Processor rev 4 (v7l)", 
+          "ck_cpu_subname": "ARMv7 Processor rev 4 (v7l)", 
+          "cpu_features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "cur_freq": 1200.0, 
+          "max_freq": 1200.0, 
+          "model name": "ARMv7 Processor rev 4 (v7l)", 
+          "processor": "0"
+        }, 
+        {
+          "BogoMIPS": "76.80", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "Hardware": "BCM2709", 
+          "Revision": "a02082", 
+          "Serial": "00000000e3db06b9", 
+          "all_freqs": [
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "BCM2709", 
+          "ck_cpu_subname": "ARMv7 Processor rev 4 (v7l)", 
+          "cpu_features": "half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32", 
+          "cur_freq": 1200.0, 
+          "max_freq": 1200.0, 
+          "model name": "ARMv7 Processor rev 4 (v7l)", 
+          "processor": "3"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv7l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Linux 4.4.34", 
+        "name_long": "Linux-4.4.34-v7+-armv7l-with-debian-8.0", 
+        "name_short": "Linux 4.4.34", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "solution_uid": "c1a63bccf456f801", 
+    "statistical_repetitions": 3
+  }
+}

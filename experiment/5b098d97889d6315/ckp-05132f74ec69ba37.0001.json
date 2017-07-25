@@ -1,0 +1,262 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 34296, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 29.29043197631836, 
+        "compilation_time_with_module": 34.440446853637695, 
+        "joined_compiler_flags": "-O3 -fbranch-target-load-optimize2 -fbtr-bb-exclusive -fcse-follow-jumps -fforward-propagate -fno-ipa-pure-const -fsched-dep-count-heuristic -fno-tree-loop-optimize", 
+        "md5_sum": "6acb35fc3aef80df9b58744b3c149db0", 
+        "obj_size": 28684, 
+        "obj_sizes": {
+          "susan.o": 28684
+        }, 
+        "program_git_hash": "540987ceb20f9153dee31b7b45f428c8b3117198"
+      }, 
+      "run": {
+        "execution_time": 0.06333592125984251, 
+        "execution_time_kernel_0": 8.043662, 
+        "execution_time_with_module": 8.758384943008423, 
+        "output_check_failed": "no", 
+        "output_check_failed_bool": false, 
+        "repeat": 127, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 8.043662
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.0633934566929134, 
+        "execution_time_kernel_0": 8.050969, 
+        "execution_time_with_module": 8.753283023834229, 
+        "output_check_failed": "no", 
+        "output_check_failed_bool": false, 
+        "repeat": 127, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 8.050969
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.06313595275590551, 
+        "execution_time_kernel_0": 8.018266, 
+        "execution_time_with_module": 8.730634212493896, 
+        "output_check_failed": "no", 
+        "output_check_failed_bool": false, 
+        "repeat": 127, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 8.018266
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.06332036220472441, 
+        "execution_time_kernel_0": 8.041686, 
+        "execution_time_with_module": 8.748736143112183, 
+        "output_check_failed": "no", 
+        "output_check_failed_bool": false, 
+        "repeat": 127, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "run_time_state": {
+          "image_size_x": 600, 
+          "image_size_y": 450
+        }, 
+        "total_execution_time": 8.041686
+      }
+    }
+  ], 
+  "choices": {
+    "calibration_time": 10.0, 
+    "cmd_key": "corners", 
+    "compile_type": "dynamic", 
+    "compiler_description_uoa": "gcc-4.9.0-auto", 
+    "compiler_flags": {
+      "base_opt": "-O3", 
+      "bool-branch-target-load-optimize2": "-fbranch-target-load-optimize2", 
+      "bool-btr-bb-exclusive": "-fbtr-bb-exclusive", 
+      "bool-cse-follow-jumps": "-fcse-follow-jumps", 
+      "bool-forward-propagate": "-fforward-propagate", 
+      "bool-ipa-pure-const": "-fno-ipa-pure-const", 
+      "bool-sched-dep-count-heuristic": "-fsched-dep-count-heuristic", 
+      "bool-tree-loop-optimize": "-fno-tree-loop-optimize"
+    }, 
+    "data_uoa": "cbench-automotive-susan", 
+    "dataset_file": "data.pgm", 
+    "dataset_uoa": "image-pgm-clean-gray-square-600-450-8", 
+    "device_cfg": {}, 
+    "device_id": "", 
+    "host_os": "linux-32", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "program_tags": "", 
+    "repeat": 127, 
+    "target": "", 
+    "target_os": "linux-32", 
+    "target_os_bits": "32"
+  }, 
+  "choices_order": [
+    "##compiler_flags#base_opt", 
+    "##compiler_flags#bool-branch-target-load-optimize2", 
+    "##compiler_flags#bool-btr-bb-exclusive", 
+    "##compiler_flags#bool-cse-follow-jumps", 
+    "##compiler_flags#bool-forward-propagate", 
+    "##compiler_flags#bool-ipa-pure-const", 
+    "##compiler_flags#bool-sched-dep-count-heuristic", 
+    "##compiler_flags#bool-tree-loop-optimize"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        4, 
+        9, 
+        2
+      ], 
+      "raw": [
+        "gcc-4.9 (Raspbian 4.9.2-10) 4.9.2", 
+        "Copyright (C) 2014 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "4.9.2"
+    }, 
+    "dataset": {
+      "compression": "", 
+      "format": "PPM", 
+      "height": 450, 
+      "mode": "L", 
+      "raw_info": {}, 
+      "total_size": 270054, 
+      "width": 600
+    }, 
+    "number_of_selected_compiler_flags": 8, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            700000, 
+            700000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "half thumb fastmult vfp edsp java tls", 
+        "current_freq": {
+          "0": 700.0
+        }, 
+        "max_freq": {
+          "0": 700.0
+        }, 
+        "name": "BCM2708", 
+        "num_proc": "1", 
+        "sub_name": "ARMv6-compatible processor rev 7 (v6l)", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0
+            ], 
+            "core_names": [
+              "BCM2708"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "697.95", 
+          "CPU architecture": "7", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xb76", 
+          "CPU revision": "7", 
+          "CPU variant": "0x0", 
+          "Features": "half thumb fastmult vfp edsp java tls", 
+          "Hardware": "BCM2708", 
+          "Revision": "0013", 
+          "Serial": "00000000999033c3", 
+          "all_freqs": [
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "BCM2708", 
+          "ck_cpu_subname": "ARMv6-compatible processor rev 7 (v6l)", 
+          "cpu_features": "half thumb fastmult vfp edsp java tls", 
+          "cur_freq": 700.0, 
+          "max_freq": 700.0, 
+          "model name": "ARMv6-compatible processor rev 7 (v6l)", 
+          "processor": "0"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "armv6l", 
+        "bits": "32", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-32", 
+        "name": "Linux 4.4.21+", 
+        "name_long": "Linux-4.4.21+-armv6l-with-debian-8.0", 
+        "name_short": "Linux 4.4.21+", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "", 
+        "name": "", 
+        "vendor": ""
+      }, 
+      "platform_misc": {}
+    }, 
+    "statistical_repetitions": 4
+  }
+}
